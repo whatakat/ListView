@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
+        //create menu item
         LinearLayout list = findViewById(R.id.layout);
         LayoutInflater ltInflater =  getLayoutInflater();
         final Activity that = this;
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             });
             list.addView(item);
         }
-        /* //create element with code
+         //create element with code
         LinearLayout list = findViewById(R.id.layout);
         final Activity that = this;
         for (String city: cities){
