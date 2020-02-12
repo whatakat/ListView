@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.listCities);
         //create adapter
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, cities);
+                R.layout.item, cities);
         //set adapter in list
         listView.setAdapter(adapter);
         final Activity that = this;
